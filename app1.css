@@ -1,0 +1,37 @@
+.img {
+	margin-right: -10px;
+	margin-top: -10px;
+	margin-left: -10px;
+	width: 101.4%;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+	animation: Test 2s infinite;
+}
+
+h1 {
+	font-variant: small-caps;
+	font-size: 350%;
+	font-family: times new roman;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+p {
+	margin-top: 0px;
+	text-align: center;
+	font-size: 120%;
+}
+
+@keyframes Test {
+    0% {opacity: 1;}
+    25% {opacity: 0;}
+    50% {opacity: 1;}
+    75% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
